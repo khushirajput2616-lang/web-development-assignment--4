@@ -1,0 +1,41 @@
+/* Simple styling, nothing fancy */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f7ff;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 25px 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(0.95);
+}
+
+.note {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #444;
+}
+
